@@ -1,0 +1,253 @@
+ header{
+    background-image: url(/assets/image/resturant4.jpg) !important;
+    height:60vh;
+    background-size: cover;
+    background-position: center center;
+   
+} 
+header .klin{
+    text-align: center;
+    padding: 10rem;
+}
+.navbar a{
+    color: red;
+    font-weight: bold;
+}
+
+.navbar .collapse .navbar-nav{
+
+    /* border: 2px solid blue; */
+
+}
+.navbar .collapse .navbar-nav a{
+    margin: 0 1.5rem;
+}
+
+.navbar .container .navbar-brand{
+    line-height: 0;
+    /* border: 2px solid blue; */
+    width: 9vw;
+}
+
+.navbar .container .navbar-brand .gon{
+    text-align: end;
+    display: block;
+    font-size: small;
+    line-height: 0rem;
+    font-weight: bold;
+    font-style: italic;
+}
+#slide{
+  
+    margin-top: 8rem;
+}
+#slide .clo .carousel-indicators{
+    line-height: 0rem;
+}
+
+ 
+ /* #post .container-fluid .row .col-md-5 img{
+    
+     width: 35vw;
+     margin-left: 0rem; 
+ } */
+    
+
+
+ /* #post .container-fluid .row .col-md-3{
+    text-align: center !important;
+}  
+
+#post .container-fluid .row .col-md-4 img{
+
+    width: 55vw;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+
+}
+ #post .container-fluid .row .col-md-3 img{
+    height: 55vh;
+    
+}   */
+
+#recent .container .row .col-sm-4 .card img{
+    height: 40vh;
+   
+}
+
+#recent .container .row .col-sm-4 .card{
+    width: 23vw;
+    margin: 0rem 0rem;
+    
+}
+
+
+#recent .container .col-sm-4 .card .card-body .d-grid a::before{
+    font-family: "bootstrap-icons";
+    content: "\F31F";
+    
+}
+#recent .container .col-sm-4 .card .card-body .d-grid a::after{
+    font-family: "bootstrap-icons";
+    content: "\F31F";
+}
+
+#the .container .row .col-md-3 img{
+    width: 20vw;
+    height: 50vh;
+    /* border: 2px solid red; */
+    align-items: center;
+}  
+/* #best .our h1{
+    background: rgb(236, 221, 193);
+}
+
+ #best .container .row .col-md-3 .text{
+   
+    height: 4vh;
+    text-align: center;
+} 
+
+#best .container .row .col-md-3 .text i{
+    line-height: 0rem;
+    
+}
+
+#best .container .row .col-md-3 .text p{
+    line-height: .2rem;
+} */
+
+/* #best .container .row .col-md-3{
+    border: 2px solid green;
+    width: 55vh;
+}  */
+
+
+#the .container .row .col-md-3 .low{
+    /* border: 2px solid red; */
+    line-height: .2rem;
+    
+}
+
+#the .you{
+    background: rgb(221, 221, 221);
+}
+/* #post .row{
+    background: rgb(235, 224, 224);
+} */
+
+#post .klu .container-fluid .row .col-md-4{
+    width: 30vw;
+
+    /* border: 2px solid red; */
+    
+}  
+#post .klu .container-fluid{
+    background: rgb(221, 221, 221);   
+}
+
+#post .klu .container-fluid .row .col-md-4 img{
+    height: 45vh;
+    width: 55vw;
+
+
+}
+#post .klu .container-fluid .row .col-md-5 img{
+    height: 45vh;
+    width: 65vw;
+}
+#post .klu .container-fluid .row .col-md-5{
+    /* border: 2px solid red; */
+
+}
+#post .klu .container-fluid .row{
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+
+
+
+/* #post .container-fluid .row .col-md-4{
+    background-color: antiquewhite;
+    
+} */
+
+
+@media only screen and (max-width:520px){
+
+    header{
+        background-image: url(/assets/image/resturant4.jpg) !important;
+        height:50vh;
+        background-size: cover;
+        background-position: center center;
+       
+    } 
+    header .klin{
+        text-align: center;
+        padding: 6rem;
+    }
+
+    #post .klu .container-fluid .row .col-md-4{
+        width: 80vw;
+    
+        /* border: 2px solid red; */
+        
+    }  
+    #post .klu .container-fluid{
+        background: rgb(221, 221, 221);   
+    }
+    
+    #post .klu .container-fluid .row .col-md-4 img{
+        height: 30vh;
+        width: 30vw;
+    
+    
+    }
+    #post .klu .container-fluid .row .col-md-5 img{
+        height: 30vh;
+        width: 65vw;
+    }
+    #post .klu .container-fluid .row .col-md-5{
+        /* border: 2px solid red; */
+    
+    }
+    #post .klu .container-fluid .row{
+        /* border: 2px solid red; */
+        justify-content: space-between;
+        
+    }
+
+    #recent .container .row .col-sm-4 .card{
+        
+        width: 90vw;
+        border: 2px solid red;
+        margin: 3rem;
+       
+    }
+    
+    #recent .container .row .col-sm-4 .card{
+        width: 23vw;
+        margin: 0rem 0rem;
+        
+    }
+    
+    
+    #recent .container .col-sm-4 .card .card-body .d-grid a::before{
+        font-family: "bootstrap-icons";
+        content: "\F31F";
+        
+    }
+    #recent .container .col-sm-4 .card .card-body .d-grid a::after{
+        font-family: "bootstrap-icons";
+        content: "\F31F";
+    }
+    
+}
